@@ -4,3 +4,17 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
+/* Navigation Scetion*/
+.top-navigation{
+	background-color: #fff;
+}
+.top-navigation > .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+.top-navigation. .links li{
+	float:right;
+	display: inline-block;
+	margin:2em;
+}
