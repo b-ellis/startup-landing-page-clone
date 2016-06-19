@@ -13,8 +13,14 @@ div {
 	height: 70px;
 	margin: 0 auto;
 }
-.top-navigation. .links li{
-	float:right;
+.top-navigation. .links{
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	float: right;
+}
+.top-navigation .links li{
 	display: inline-block;
-	margin:2em;
+	margin-left: 1.7rem;
 }
