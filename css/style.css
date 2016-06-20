@@ -22,6 +22,7 @@ div {
 	padding: 0 0.938rem;
 	margin: 0 auto;
 	min-width: 37.5rem;
+	width:60%;
 }
 :focus {
 	outline: none;
@@ -29,11 +30,15 @@ div {
 /* Navigation Scetion*/
 .top-navigation{
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
 }
 .top-navigation > .content{
 	margin: 0 auto;
 	height: 4.375rem;
-	width: 80%;
+	width: 60%;
 }
 .logo {
 	height: 70px;
@@ -111,7 +116,7 @@ button:hover{
 }
 /*Information Section*/
 .cases{
-	background-color: white
+	background-color: white;
 	overflow: hidden;
 	padding-bottom: 5rem;
 }
@@ -128,7 +133,7 @@ button:hover{
 }
 .cases .icons >li{
 	display: inline-block;
-	width: 33.3333333%
+	width: 33.3333333%;
 	float: left;
 }
 .cases .icons h3{
