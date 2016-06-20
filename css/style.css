@@ -29,22 +29,22 @@ div {
 /* Navigation Scetion*/
 .top-navigation{
 	background-color: #fff;
-	position: fixed;
-	width: 100%;
-	border-bottom: 1px solid #DDD;
-	z-index: 9999;
 }
 .top-navigation > .content{
+	margin: 0 auto;
 	height: 4.375rem;
+	width: 80%;
 }
-.top-navigation .logo{
-	height: 4.375rem;
+.logo {
+	height: 70px;
 }
-.top-navigation. .links{
+
+.top-navigation .links{
 	float: right;
 	color:#838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
+	margin-left: -25px;
 }
 .top-navigation .links li{
 	display: inline-block;
